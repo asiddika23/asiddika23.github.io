@@ -39,7 +39,6 @@ li {
 .custom-about strong,
 .custom-about em {
   font-weight: 600;
-  color: #ffffff;
 }
 
 .custom-about ul li::marker {
