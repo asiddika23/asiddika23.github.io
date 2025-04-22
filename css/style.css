@@ -4,6 +4,49 @@ html {
 li {
   list-style-type: square;
 }
+.custom-about {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  border-left: 5px solid #367cfe;
+}
+
+.custom-about .highlight {
+  color: #367cfe;
+  font-weight: bold;
+}
+.p-4 {
+  padding: 1.5rem;
+}
+
+.rounded {
+  border-radius: 1rem; /* Large smooth corners */
+}
+
+.shadow-sm {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft but noticeable */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.custom-about:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.custom-about strong,
+.custom-about em {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.custom-about ul li::marker {
+  color: #a75aff;
+}
+
+
 .heading_bg {
   background-image: url(../img/primaryedit.svg);
   background-position-x: center;
